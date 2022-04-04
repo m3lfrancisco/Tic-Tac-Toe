@@ -1,0 +1,46 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.game-title {
+    font-size: 100px;
+    color: deepskyblue;
+    margin: 10px auto;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 310px;
+    margin: 10px auto;
+    background-color: slategray;
+    color: darkturquoise;
+}
+
+.box {
+    font-family: "Franklin Gothic", sans-serif;
+    width: 100px;
+    height: 100px;
+    border: 2px solid lightsalmon;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game-status {
+    font-size: 50px;
+    color: mediumvioletred;
+    margin: 20px auto;
+}
+
+#resetButton {
+    background-color: hotpink;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: darkslategray;
+    border: 2px solid gold;
+}

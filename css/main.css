@@ -12,6 +12,12 @@ section {
     margin: 10px auto;
 }
 
+h2 {
+    font-size: 50px;
+    color: mediumvioletred;
+    margin: 20px auto;
+}
+
 #board {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -30,13 +36,7 @@ section {
     font-size: 60px;
 }
 
-.game-status {
-    font-size: 50px;
-    color: mediumvioletred;
-    margin: 20px auto;
-}
-
-#resetButton {
+#reset-button {
     background-color: hotpink;
     width: 200px;
     height: 50px;
